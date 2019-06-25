@@ -2,5 +2,5 @@
 *.tmp
 *.bak
 *.old
-_pycache_/
+__pycache__/
 
