@@ -5,9 +5,9 @@ You can find Alliance Auth [here](https://gitlab.com/allianceauth/allianceauth).
 The purpose of this app is to provide developers who want to add new apps the Auth with a simple and easy to understand template as a good starting point.
 
 ## Features
-Here is a list of the features of this app
+Here is a list of the features of this app:
 - Standalone django app that lives in its own folder
-- Fits smoothly into the alliance auth with its own menu item
+- Has its own menu item in the auth site
 - Uses same layout as other apps (e.g. corpstats)
 - Access is protected by app specific permission (`example.example_view`)
 
