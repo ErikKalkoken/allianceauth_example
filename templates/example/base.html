@@ -1,0 +1,11 @@
+{% extends 'allianceauth/base.html' %}
+{% load i18n %}
+{% block page_title %}{% trans "Example" %}{% endblock %}
+{% block content %}
+    <div class="col-lg-12">
+        <h1 class="page-header text-center">{% trans "Example" %}</h1>
+        <div class="col-lg-10 col-lg-offset-1 container">            
+            {% block details %}{% endblock %}
+        </div>
+    </div>
+{% endblock %}
